@@ -1,0 +1,167 @@
+header
+{
+	
+	display:flex;
+	flex-direction:row;
+	background-color: #B0B0B0; /*noir-clair*/
+	height:100px;
+	padding:10px;
+	font-weight:bold;
+	color:#000; /*gris-blanc*/
+}
+
+*
+{
+	font-family: Verdana;
+	color:#000;
+}
+body
+{
+	background-color:#FAFAFA;
+}
+
+h1
+{
+	font-family:SuperMario;	
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+}
+h3
+{
+	text-align:center;
+}
+.menu:nth-child(2)
+{
+	font-family:SuperMario;
+	font-size:60px;
+	margin: 2.5%;
+	align-self:center;
+	
+}
+.menu:nth-child(3)
+{
+	width:6%;
+	margin-left:5%;
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(4)
+{
+	width:7%;
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(5)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(6)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	border-right:solid black;
+}
+.page
+{
+	display:flex;
+}
+.corps:nth-child(1)
+{
+	margin-top:5%;
+	margin-left:2%;	
+}
+.corps:nth-child(2)
+{
+	text-align:center;
+	border: solid black;
+	margin:5%;
+	margin-left:7%;
+	padding-top:3%;
+	width:70%;
+	height: 900px;
+	
+}
+.corps:nth-child(3)
+{
+	margin-top:5%;
+	
+}
+@font-face{
+	font-family:SuperMario;
+	src:url(SuperMario256.ttf);
+}
+.image1{
+position:absolute;
+top:90%;
+left:33%;
+font-size:35px;
+}
+.image2{
+	position:absolute;
+	top:46%;
+left:36%;
+font-size:27px;
+}
+
+.image3{
+	position : absolute;
+	top:45%;
+	left:36%;
+	font-size:30px;
+}
+.image4{
+	position : absolute;
+	top:47%;
+	left:53%;
+	font-size:28px;
+}
+.image5{
+	position : absolute;
+	top:56%;
+	left:52%;
+	font-size:65px;
+}
+.image6{
+	position : absolute;
+	top:64%;
+	left:53%;
+	font-size:25px;
+}
+.image7
+{
+	position : absolute;
+	top:65%;
+	left:51%;
+	font-size:28px;
+	
+}
+.image8{
+	position : absolute;
+	top:72%;
+	left:52%;
+	font-size:25px;
+}
+.image9{
+	position : absolute;
+	top:72%;
+	left:54%;
+	font-size:25px;
+}

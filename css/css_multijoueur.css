@@ -1,0 +1,71 @@
+header
+{
+	
+	display:flex;
+	flex-direction:row;
+	background-color: #B0B0B0; /*noir-clair*/
+	height:100px;
+	padding:10px;
+	font-weight:bold;
+	color:#000; /*gris-blanc*/
+}
+
+*
+{
+	font-family: Verdana;
+	color:#000;
+}
+body
+{
+	background-color:#FAFAFA;
+}
+.menu:nth-child(2)
+{
+	font-family:SuperMario;
+	font-size:60px;
+	margin: 2.5%;
+	align-self:center;
+	
+}
+.menu:nth-child(3)
+{
+	width:6%;
+	margin-left:5%;
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(4)
+{
+	width:7%;
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(5)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(6)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	border-right:solid black;
+}
+@font-face{
+	font-family:SuperMario;
+	src:url(SuperMario256.ttf);
+}

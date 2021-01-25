@@ -1,0 +1,161 @@
+header
+{
+	
+	display:flex;
+	flex-direction:row;
+	background-color: #B0B0B0; /*noir-clair*/
+	height:100px;
+	padding:10px;
+	font-weight:bold;
+	color:#000; /*gris-blanc*/
+}
+
+*
+{
+	font-family: Verdana;
+	color:#000;
+}
+body
+{
+	background-color:#FAFAFA;
+}
+h1
+{
+	font-family:SuperMario;	
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+	
+}
+h3
+{
+	text-align:center;
+}
+.menu:nth-child(2)
+{
+	font-family:SuperMario;
+	font-size:60px;
+	margin: 2.5%;
+	align-self:center;
+	
+}
+.menu:nth-child(3)
+{
+	width:6%;
+	margin-left:5%;
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(4)
+{
+	width:7%;
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(5)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(6)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	border-right:solid black;
+}
+.page
+{
+	display:flex;
+	
+	
+}
+.corps:nth-child(1)
+{
+	margin-top:5%;
+	margin-left:2%;	
+}
+.corps:nth-child(2)
+{
+	text-align:left;
+	border: solid black;
+	margin:5%;
+	margin-left:7%;
+	width:70%;
+	height: 800px;
+}
+
+.corps:nth-child(3)
+{
+	margin-top:5%;
+	
+}
+@font-face{
+	font-family:SuperMario;
+	src:url(SuperMario256.ttf);
+}
+.VosPoints{
+	position:absolute;
+	left:44%;
+	font-size:23px;
+}
+.PointsIA{
+	position:absolute;
+	left:44%;
+	font-size:23px;
+}
+.ciseau{
+	width:25%;
+	height:25%;
+	margin:auto;
+}
+.pierre{
+	width:25%;
+	height:25%;
+	margin:auto;
+}
+.feuille{
+	width:25%;
+	height:25%;
+	margin:auto;
+}
+.feuille2{
+	position:absolute;
+	top:80%;
+	left:18%;
+	width:25%;
+	height:25%;
+}
+.ciseau2{
+	position:absolute;
+	top:80%;
+	left:58%;
+	width:25%;
+	height:30%;
+}
+.pierre2{
+	position:absolute;
+	top:80%;
+	left:38%;
+	width:25%;
+	height:30%;
+}
+.affichage
+{
+	display:flex;
+	flex-direction:row;
+}

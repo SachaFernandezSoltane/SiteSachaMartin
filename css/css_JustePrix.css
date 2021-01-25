@@ -1,0 +1,133 @@
+header
+{
+	
+	display:flex;
+	flex-direction:row;
+	background-color: #B0B0B0; /*noir-clair*/
+	height:100px;
+	padding:10px;
+	font-weight:bold;
+	color:#000; /*gris-blanc*/
+}
+
+*
+{
+	font-family: Verdana;
+	color:#000;
+}
+body
+{
+	background-color:#FAFAFA;
+}
+p{
+	margin-top:7%;
+}
+h1
+{
+	font-family:SuperMario;
+	margin-top:15%;	
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+}
+h3
+{
+	text-align:center;
+	color:blue;
+}
+.menu:nth-child(2)
+{
+	font-family:SuperMario;
+	font-size:60px;
+	margin: 2.5%;
+	align-self:center;
+	
+}
+.menu:nth-child(3)
+{
+	width:6%;
+	margin-left:5%;
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(4)
+{
+	width:7%;
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(5)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	
+}
+.menu:nth-child(6)
+{
+	
+	padding-left:1%;
+	padding-right:1%;
+	align-self:center;
+	border-left:solid black;
+	border-right:solid black;
+}
+.Victoire{
+	height:28px;
+}
+.Compteàrebours{
+	position :absolute;
+	font-family:SuperMario;
+	font-size:35px;
+	top:35%;
+	margin-left:7%;
+}
+
+.page
+{
+	display:flex;
+	
+	
+}
+.corps:nth-child(1)
+{
+	margin-top:5%;
+	margin-left:2%;	
+}
+.corps:nth-child(2)
+{
+	text-align:center;
+	border: solid black;
+	margin:5%;
+	margin-left:7%;
+	width:70%;
+	height: 800px;
+}
+
+.corps:nth-child(3)
+{
+	margin-top:5%;
+	
+}
+.corps:nth-child(4)
+{
+	position:absolute;
+	margin-top:5%;
+	margin-left:13%;
+	
+}
+@font-face{
+	font-family:SuperMario;
+	src:url(SuperMario256.ttf);
+}
