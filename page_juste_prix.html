@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/css_JustePrix.css">
+		<title>
+			Le Juste Prix | Jeux.fr
+		</title>
+	</head>
+
+	<header>
+	<div class="menu"><img  src="images/logo.png" alt="logo du site" /></div>
+	<div class="menu">JEUX.FR </div>
+	<div class="menu"><a href="index.html" >Accueil</a></div>
+	<div class="menu">Un joueur</div>
+	<div class="menu">Multijoueur</div>
+	<div class="menu">Contact</div>
+	</header>
+
+	<body>
+	<div class="page">
+	<div class="corps"><img src="images/pub_bleue.gif" alt="Publicité" width=150%/></div>
+	<div class="corps">
+	<h1>Le Juste Prix</h1>
+	<p>
+	C'est le fameux jeu du juste prix , quand vous serez prêt , vous pourrez lire les règles
+	</p>
+
+		<form>
+
+		<button type="button" class="button" id="démarrer" onclick="lancer();">
+		commencer
+		</button>
+
+		<div id="Compte à rebours" class="Compteàrebours">Compte à rebours</div>
+		<div id="Victoire" class="Victoire">VICTOIRE</div>
+		<button type="button" id="Proposition" onclick="verification();">
+			Proposer un chiffre
+		<input type="text" id="ligne"/>
+		</button>
+		</button>
+
+		<div id="Compte à rebours2" class="Compteàrebours"></div>
+		<div id="Essais"></div>
+		<script type="text/javascript" src="js/page_juste_prix.js"></script>
+	</form>
+	</br>
+
+	<h3><a href='page_juste_prix.html'>Rejouer</a><h3></h3>
+	</br>
+	<h2>Les règles </h2>
+	<p>-Cliquez sur commencer pour lancer le compte à rebours</br>
+	-Vous avez alors 30 secondes pour trouver un nombre compris entre 0 et 100</br>
+	-A chaque fois que vous entrez un chiffre , pensez à cliquer sur " PROPOSER UN CHIFFRE "</br>
+	-Si vous n'avez pas trouvé ce nombre dans les 30 secondes , alors vous perdrez </br>
+	</p>
+	</div>
+
+	<div class="corps"><img src="images/pub_cookie.gif" alt="Publicité" width=150%/></div>
+	<div class="corps"><img src="images/coeur.png" alt="Vie" width=15%/></div>
+	</div>
+	</body>
+</html>

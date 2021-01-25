@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/css_JeuxDesQuestions.css">
+		<title>
+			Jeux des Questions | Jeux.fr
+		</title>
+	</head>
+	<header>
+	<div class="menu"><img  src="images/logo.png" alt="logo du site" /></div>
+	<div class="menu">JEUX.FR </div>
+	<div class="menu"><a href="index.html" >Accueil</a></div>
+	<div class="menu">Un joueur</div>
+	<div class="menu">Multijoueur</div>
+	<div class="menu">Contact</div>
+	</header>
+
+	<body>
+	<div class="page">
+	<div class="corps"><img src="images/pub_bleue.gif" alt="Publicité" width=150%/></div>
+	<div class="corps">
+	<h1>Le Jeu des questions</h1>
+	<p>
+	Voici un générateur de devinette , lorsque vous vous sentez prêt à vous lancer, </br>
+	cliquez sur le bouton " GENERATEUR " .
+	</p>
+	<div class="coeur"><img src="images/coeur.png" alt="Vie" width=15%/></div>
+
+	<form>
+		<div id="NbrVie" class="NbrVie">3</div>
+		<button type="button" onclick="afficher();">
+		GENERATEUR
+		</button>
+
+		<input type="text" id="ligne"/>
+		<button type="button" id="réponse" onclick="verification();">
+					Proposez une réponse
+		</button>
+
+		<div id="AffichQuestion"> La question est la suivante </div>
+		<div id="Vérification" class="Vérification">Avez vous trouvez la bonne réponse ? </div>
+	</form>
+	<script type="text/javascript" src="js/page_jeux_des_questions.js"></script>
+	</br>
+	</br>
+	<h3><a href='page_jeux_des_questions.html'>Rejouer</a></h3>
+	</br>
+
+	<h2>Les règles </h2>
+	<p>
+	- Vous cliquez sur " GENERATEUR " pour générer une question</br>
+	- Vous rentrez votre réponse dans le cadre prévu à cette effet</br>
+	- Vous regardez si la réponse que vous avez rentrez est juste</br>
+	- Le nombre de vie que vous possédez est matérialisé par le coeur en haut à gauche</br>
+	- Vous disposez de 3 essais , sinon c'est perdu :(</br>
+	</p>
+
+	</div>
+	<div class="corps"><img src="images/pub_cookie.gif" alt="Publicité" width=150%/></div>
+
+	</div>
+	</body>
+</html>
